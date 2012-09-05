@@ -1,0 +1,52 @@
+#+begin_src R
+x<-1:5
+
+square<-function(x){
+x^2
+}
+square(x)
+#+end_src
+
+
+* fruits
+** Apples
+Apples are red
+** Oranges 								:RED:
+Oranges are orange
+* Vegetables
+Not all vegetables are green
+** Spinach
+Spinach is green
+** Carrots
+Carrots are red
+* Junk food
+** Sweet
+** Candy
+** Fried
+* Ordered and unorder lists
+1.First ordered list item
+ - First unordered list item
+ - Second unordered list item
+  + Another item
+  + Yet another item
+2.Second ordered list item
+ - [ ] This is a unchecked item
+ - [X] This is a checked item
+ - [ ] This is a unchecked item
+   
+* Hyperlinks
+** Simple URLs
+[[http://www.linuxjournal.com/article/9116?page%3D0,1][Get organized with Emacs org-mode]]
+** link to image
+[[file://d:/ÎÒµÄÎÄµµ/wallpages0.jpg][image]]
+
+* Tables
+
+| Column 1   | Column 2   | Column 3    |             numbers |
+|------------+------------+-------------+---------------------|
+| Cell one   | Cell two   | Cell three  |                   1 |
+| Cell four  | Cell five  | Cell six    |                 200 |
+| Cell seven | Cell eight | Cell nine   |                3001 |
+| ---------- | ---------- | ----------- |             ------- |
+|            |            |             | vsum(numbers - 200) |
+#+TBLFM: $4=vsum(@1-@3)::@4=vsum(&1-3)
