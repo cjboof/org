@@ -1,0 +1,42 @@
+#+TAGS:{SNS(s) DATA(d) AI(a) DIP(i) program(p) CAE(c) IOT(t)}
+* org-mode configuration
+
+* Inbox
+** 微博中转站：发表到微博的话						:SNS:
+** 记录突然闪现的想法
+** 临时事件
+* Tasks
+** TODO 完成公司网络服务集成化，实现网管自动化				:IOT:
+   DEADLINE: <2012-10-07 日>
+- [-] dirctory service(LDAP/AD)，网络服务的集成与发布
+  - [X] 网络基础设施（DHCP和DNS）<2012-09-03 一>
+  - [ ] 目录活动环境的设计
+  - [ ] 对象类的控制与策略管理
+  - [ ] 网络服务集成
+- [X] 与公司的远程连接通道
+- [ ] 网络监控系统：nagios/cacti
+* Projects								:CAE:
+** 数字图像处理：我首先学习数字图像处理的数学基础，即将图像数字化，并且使用算子操纵矩阵的手段完成处理人物 :DIP:
+** octave以及数学仿真：							:CAE:
+* Routines
+** 重复性事务：
+*** 记录事务的清单（做了什么事情，怎么做的，中间有什么规律，效率提升的路径以及自动化的手段）
+* Remind
+** 提醒绑定到日历
+* Reading
+* Weekly review
+- 启动计时器
+- 获取一天的工作记录（ctrl-c ctrl-x ctrl-r)
+#+BEGIN: clocktable :maxlevel 2 :scope subtree
+Clock summary at [2012-09-03 一 22:13]
+
+| Headline     | Time   |
+|--------------+--------|
+| *Total time* | *0:00* |
+#+END:
+- 报表：
+#+begin_src emacs-lisp :results value
+(setq week-range (org-clock-special-range 'thisweek nil t))
+(org-clock-sum-today-by-tags nil (nth 0 week-range) (nth 1 week-range) t)
+#+end_src
+
