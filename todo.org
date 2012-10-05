@@ -16,7 +16,7 @@
 - [X] 与公司的远程连接通道
 - [ ] 网络监控系统：nagios/cacti
 * Projects								:CAE:
-** 数字图像处理：我首先学习数字图像处理的数学基础，即将图像数字化，并且使用算子操纵矩阵的手段完成处理任务 :DIP:
+** 数字图像处理：我首先学习数字图像处理的数学基础，即将图像数字化，并且使用算子操纵矩阵的手段完成处理人物 :DIP:
 ** octave以及数学仿真：							:CAE:
 * Routines
 ** 重复性事务：
@@ -40,3 +40,50 @@ Clock summary at [2012-09-03 一 22:13]
 (org-clock-sum-today-by-tags nil (nth 0 week-range) (nth 1 week-range) t)
 #+end_src
 
+
+* Fruit
+** Apple
+Apple are red
+** orange
+Orange are orange
+* Vegetables
+Not all vegetables are green
+** Spinach
+Spinach is green
+** Carrots
+Carrots are red
+* Junk food
+** Sweet
+*** Candy
+** Fried
+
+* Ordered and unordered lists
+1. First ordered list item
+   - First unordered list item
+   - Second unordered list item
+     +Another item
+     +Yet another item
+2. Second ordered list item
+   1. [ ] This is a unchecked checkbox
+   2. [ ] This is a checked checkbox
+   3. [ ] This is another unchecked checkbox
+3. Third ordered list item
+* Hyperlinks
+** Simple URLS
+   http://staff.scienc.uva.nl/~dominik.Tools/org/
+** Link to image
+[[file:images/example.png][My prictures]]
+** Link to file
+file:files/example.pdf
+* Tables
+| Column 1   | Column 2   | Column 3   | Numbers |                    |
+|------------+------------+------------+---------+--------------------|
+| Cell one   | Cell two   | Cell three |       1 |                    |
+| Cell four  | Cell five  | Cell six   |     200 |                    |
+| Cell seven | Cell eight | Cell nine  |    3001 |                    |
+|------------+------------+------------+---------+--------------------|
+|            |            |            | 3202    | #计算 ：shift+回车 |
+|            |            |            |         |                    |
+
+
+#+TBLFM: $4=vsum(&1-3)
