@@ -1,0 +1,34 @@
+* Tasks
+** DONE Start new org file for tutorial
+   CLOSED: [2012-10-08 星期一 13:12](在org\logging work\Record DONE time上打勾，然后c-c c-t切换到DONE)
+** DONE Outline document
+   CLOSED: [2012-10-08 星期一 13:19]
+** DONE Write introduction
+   CLOSED: [2012-10-08 星期一 13:22]
+** TODO Finish document
+
+* Introduction
+
+Org-mode is a personal information management and outlining tool for Emacs.This
+document is intended to give the reader a "feel" for org-mode and to teach basic
+operations.
+
+** Obtaining org-mode
+
+You can download org-mode from the [[http://staff.science.uva.nl/~dominik/Tools/org/][org-mode home page.]]The following
+commands will download version 4.27 and unpack it into your Elisp
+directory.
+t
+: cd $ELISP
+
+** Installation
+** Configuration
+
+* The basics
+** Create a new file
+** Simple task lsit
+** Using headlines to structure a document
+** Links to other places
+** Adding notes to a task
+** Scheduling an appointment
+** Using the agenda
